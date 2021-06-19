@@ -16,7 +16,7 @@ function exibeNoticias (){
             <div class="box-noticia">
                 <img src="https://image.tmdb.org/t/p/w500/${filmes.poster_path}" alt="">
                 <span class="titulo">${filmes.title}</span><br>
-                <span class="creditos">${data.toLocaleDateString ()} ${filmes.release_date} ${filmes.release_date}</span><br>
+                <span class="creditos">${data.toLocaleDateString ()}</span><br>
                 <span class="texto">${filmes.overview}</span>
                 <a href="${"https://www.themoviedb.org/movie/" + filmes.id}" >Leia mais...</a>
             </div>
